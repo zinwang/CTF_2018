@@ -49,6 +49,45 @@ dd if=carter.jpg of=carter87.jpg skip=140147 bs=1
 
 
 
+solution 2: foremost
+
+`
+foremost carter.jpg
+`
+<br /><br />
+
+=====================================================
+
+BITSCTF 2017 : black-hole-10<br /><br />
+-----------------------------------------------------
+
+```
+strings black_hole.jpg
+```
+UQklUQ1RGe1M1IDAwMTQrODF9
+
+
+
+=====================================================
+
+CSAW Quals CTF 2013: Black & White<br /><br />
+-----------------------------------------------------
+
+stegslove: 
+
+install:
+```
+wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
+chmod +x stegsolve.jar
+```
+use:
+```
+java -jar stegslove.jar
+```
+
+
+
+
 
 
 
