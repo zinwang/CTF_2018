@@ -10,13 +10,14 @@ sCTF 2016 Q1 : banana-boy-20<br /><br />
 
 
 solution 1: binwalk&&dd
-
+<br />
+binwalk分析檔案
 ```
 binwalk carter.jpg
 ```
 
 <br />
-output:
+:
 
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
@@ -30,7 +31,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 ```
 
 <br/>
-dd command<br />
+dd將藏在裏頭的jpeg提出來<br />
 
 `
 dd if=carter.jpg of=carter87.jpg skip=140147 bs=1
@@ -49,7 +50,7 @@ result:<br />
 
 
 <br />
-solution 2: foremost
+solution 2: foremost快速又方便
 
 `
 foremost carter.jpg
