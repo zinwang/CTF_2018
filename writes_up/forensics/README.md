@@ -60,12 +60,21 @@ foremost carter.jpg
 
 BITSCTF 2017 : black-hole-10<br /><br />
 -----------------------------------------------------
-
+strings指令
 ```
 strings black_hole.jpg
 ```
+會發現
 UQklUQ1RGe1M1IDAwMTQrODF9
-
+這段特別長特別令人起疑
+於是假設他是base64
+因為這是BITSCTF
+所以試試base64加密BITSCTF
+結果QklUU0NURg==
+由此可知此段base64從Q開始，U是多餘的
+即QklUQ1RGe1M1IDAwMTQrODF9
+base64解碼:
+BITCTF{S5 0014+81}
 
 
 =====================================================
@@ -73,7 +82,7 @@ UQklUQ1RGe1M1IDAwMTQrODF9
 CSAW Quals CTF 2013: Black & White<br /><br />
 -----------------------------------------------------
 
-stegslove: [http://kmb.ufoctf.ru/stego/stegsolve/main.html](http://kmb.ufoctf.ru/stego/stegsolve/main.html)
+stegslove隱寫分析神器: [http://kmb.ufoctf.ru/stego/stegsolve/main.html](http://kmb.ufoctf.ru/stego/stegsolve/main.html)
 
 install:
 ```
@@ -138,6 +147,7 @@ Megapixels                      : 0.420
 
 CSAW QUALS 2015: keep-calm-and-ctf<br /><br />
 -----------------------------------------------------
+strings指令
 ```
 strings just_open_it.jpg |grep CTF
 ```
@@ -150,8 +160,8 @@ ABCTF 2016 : gz-30<br /><br />
 -----------------------------------------------------
 
 ```
-mv flag flag.gz
-gzip -d flag.gz 
+mv flag flag.gz #把flag改成gz檔
+gzip -d flag.gz #解壓gz
 ```
 
 
