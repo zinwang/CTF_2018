@@ -73,7 +73,7 @@ UQklUQ1RGe1M1IDAwMTQrODF9
 CSAW Quals CTF 2013: Black & White<br /><br />
 -----------------------------------------------------
 
-stegslove: [](http://kmb.ufoctf.ru/stego/stegsolve/main.html)
+stegslove: [stegslove](http://kmb.ufoctf.ru/stego/stegsolve/main.html)
 
 install:
 ```
