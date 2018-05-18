@@ -30,6 +30,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 ```
 
 <br/>
+dd command
 `
 dd if=carter.jpg of=carter87.jpg skip=140147 bs=1
 `
