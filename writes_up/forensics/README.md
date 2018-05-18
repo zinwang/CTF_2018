@@ -66,14 +66,14 @@ strings black_hole.jpg
 ```
 會發現
 UQklUQ1RGe1M1IDAwMTQrODF9
-這段特別長特別令人起疑
-於是假設他是base64
-因為這是BITSCTF
-所以試試base64加密BITSCTF
-結果QklUU0NURg==
-由此可知此段base64從Q開始，U是多餘的
-即QklUQ1RGe1M1IDAwMTQrODF9
-base64解碼:
+這段特別長特別令人起疑<br />
+於是假設他是base64<br />
+因為這是BITSCTF<br />
+所以試試base64加密BITSCTF<br />
+結果QklUU0NURg==<br />
+由此可知此段base64從Q開始，U是多餘的<br />
+即QklUQ1RGe1M1IDAwMTQrODF9<br />
+base64解碼:<br />
 BITCTF{S5 0014+81}
 
 
