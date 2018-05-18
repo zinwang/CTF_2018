@@ -33,7 +33,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 ```
 dd if=carter.jpg of=carter87.jpg skip=140147 bs=1
 ```
-
+<br />
 ![](https://github.com/zinwang/ctf/blob/master/writes_up/forensics/pics/2018-05-18%2021-11-35%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
 
