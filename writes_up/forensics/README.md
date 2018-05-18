@@ -8,7 +8,8 @@ CTF:Forensics
 
 #sCTF 2016 Q1 : banana-boy-20
 
-solution 1:<br />
+solution 1:
+
 hi
 
 
