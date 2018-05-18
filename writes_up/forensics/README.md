@@ -73,7 +73,7 @@ UQklUQ1RGe1M1IDAwMTQrODF9
 CSAW Quals CTF 2013: Black & White<br /><br />
 -----------------------------------------------------
 
-stegslove: [stegslove](http://kmb.ufoctf.ru/stego/stegsolve/main.html)
+stegslove: [http://kmb.ufoctf.ru/stego/stegsolve/main.html](http://kmb.ufoctf.ru/stego/stegsolve/main.html)
 
 install:
 ```
@@ -87,8 +87,43 @@ java -jar stegslove.jar
 
 
 
+=====================================================
 
+CSAW QUALS 2015: keep-calm-and-ctf<br /><br />
+-----------------------------------------------------
 
+```
+exiftool img.jpg
+```
+
+```
+ExifTool Version Number         : 10.77
+File Name                       : img.jpg
+Directory                       : /root
+File Size                       : 92 kB
+File Modification Date/Time     : 2018:04:22 23:59:22+08:00
+File Access Date/Time           : 2018:05:18 22:33:10+08:00
+File Inode Change Date/Time     : 2018:04:23 00:01:43+08:00
+File Permissions                : rw-r--r--
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+X Resolution                    : 72
+Y Resolution                    : 72
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Resolution Unit                 : inches
+Y Cb Cr Positioning             : Centered
+Copyright                       : h1d1ng_in_4lm0st_pla1n_sigh7
+Image Width                     : 600
+Image Height                    : 700
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 600x700
+Megapixels                      : 0.420
+```
 
 
 
