@@ -11,11 +11,12 @@ sCTF 2016 Q1 : banana-boy-20<br /><br />
 
 solution 1: binwalk&&dd
 
-```
+`
 binwalk carter.jpg
-```
+`
 <br />
 output:
+
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
@@ -24,6 +25,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 3192          0xC78           TIFF image data, big-endian, offset of first image directory: 8
 140147        0x22373         JPEG image data, JFIF standard 1.01
 140177        0x22391         TIFF image data, big-endian, offset of first image directory: 8
+
 ```
 
 <br/>
