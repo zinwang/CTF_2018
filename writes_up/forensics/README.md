@@ -42,6 +42,73 @@ dd if=carter.jpg of=carter87.jpg skip=140147 bs=1
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ABCTF 2016 : best-ganondorf-50
 
 xxd ezmonay.jpg |head -5
