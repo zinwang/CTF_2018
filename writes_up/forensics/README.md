@@ -17,7 +17,7 @@ binwalk carter.jpg
 ```
 
 <br />
-:
+result:
 
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
