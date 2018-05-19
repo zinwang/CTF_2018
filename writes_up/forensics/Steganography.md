@@ -1,5 +1,5 @@
 
-# CTF:Forensics
+# CTF:Forensics-Stego
 
 
 =====================================================
@@ -85,12 +85,11 @@ CSAW Quals CTF 2013: Black & White<br /><br />
 
 stegslove隱寫分析神器: [http://kmb.ufoctf.ru/stego/stegsolve/main.html](http://kmb.ufoctf.ru/stego/stegsolve/main.html)
 
-install:
+download:
 ```
 wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
-chmod +x stegsolve.jar
 ```
-use:
+usage:
 ```
 java -jar stegslove.jar
 ```
@@ -167,61 +166,48 @@ gzip -d flag.gz #解壓gz
 
 
 
-ABCTF 2016 : best-ganondorf-50
+=====================================================
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ABCTF 2016 : best-ganondorf-50
-
+ABCTF 2016 : best-ganondorf-50<br /><br />
+-----------------------------------------------------
+xxd檢查file signature
+```
 xxd ezmonay.jpg |head -5
+```
 
-檢查file signature
 
-`
+
+```
 printf '\xdd\xd8\xff' | dd of=ezmonay.jpg seek=0 bs=1 conv=notrunc
-`
-xxd ezmonay.jpg |head -5
+```
 在檢查一次
+```
+xxd ezmonay.jpg |head -5
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
