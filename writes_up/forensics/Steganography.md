@@ -235,7 +235,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 dd if=PurpleThing.png of=new.jpg skip=765455 bs=1
 ```
 
-
+![](https://github.com/zinwang/ctf/blob/master/writes_up/forensics/pics/new.jpg)
 
 
 
