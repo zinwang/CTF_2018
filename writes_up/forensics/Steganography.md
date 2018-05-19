@@ -207,9 +207,10 @@ xxd ezmonay.jpg |head -5
 ```
 <br />
 
-
+<br />
 ![](https://github.com/zinwang/ctf/blob/master/writes_up/forensics/pics/ezmonay.jpg)
 
+<br />
 
 
 
