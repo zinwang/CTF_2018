@@ -209,7 +209,7 @@ xxd ezmonay.jpg |head -5
 
 ![](https://github.com/zinwang/ctf/blob/master/writes_up/forensics/pics/ezmonay.jpg)
 
-
+<br />
 =====================================================
 
 steg_3:Embedded secret<br /><br />
