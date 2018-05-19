@@ -175,6 +175,7 @@ xxd檢查file signature
 xxd ezmonay.jpg |head -5
 ```
 result:
+
 ```
 00000000: 0101 0100 4800 4800 00ff db00 4300 0302  ....H.H.....C...
 00000010: 0203 0202 0303 0303 0403 0304 0508 0505  ................
@@ -182,8 +183,11 @@ result:
 00000030: 0d0e 1210 0d0e 110e 0b0b 1016 1011 1314  ................
 00000040: 1515 150c 0f17 1816 1418 1214 1514 ffdb  ................
 ```
+
+
 <br />
 
+[File Signature](https://en.wikipedia.org/wiki/List_of_file_signatures)
 
 ```
 printf '\xff\xd8\xff' | dd of=ezmonay.jpg seek=0 bs=1 conv=notrunc
@@ -201,7 +205,7 @@ xxd ezmonay.jpg |head -5
 00000040: 1515 150c 0f17 1816 1418 1214 1514 ffdb  ................
 ```
 <br />
-
+![](https://github.com/zinwang/ctf/blob/master/writes_up/forensics/pics/ezmonay.jpg)
 
 
 
