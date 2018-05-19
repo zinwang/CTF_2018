@@ -187,6 +187,7 @@ result:
 
 <br />
 
+
 [File Signature](https://en.wikipedia.org/wiki/List_of_file_signatures)
 
 ```
@@ -205,6 +206,7 @@ xxd ezmonay.jpg |head -5
 00000040: 1515 150c 0f17 1816 1418 1214 1514 ffdb  ................
 ```
 <br />
+
 ![](https://github.com/zinwang/ctf/blob/master/writes_up/forensics/pics/ezmonay.jpg)
 
 
