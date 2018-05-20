@@ -41,7 +41,28 @@ Internetwache-CTF-2016:Network Forensic<br /><br />
 <br />
 
 4.
+
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(185).png)
+
+<br />
+
+5.另存為flag.zip<br />
+6.
+```
+unzip flag.zip
+```
+<br />
+需要密碼
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/2018-05-20%2021-22-09%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
+
+<br />
+7.往回找封包，一樣找http<br />
+找到密碼!
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/2018-05-20%2021-25-37%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
+
+<
 
 ===========================================================
 
