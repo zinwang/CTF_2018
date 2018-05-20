@@ -26,19 +26,22 @@ strings networkingOK.pcap
 
 Internetwache-CTF-2016:Network Forensic<br /><br />
 -----------------------------------------------------------
-1.用wireshark 打開
-2.尋找http
+1.用wireshark 打開<br />
+2.尋找http<br />
 發現東西了!
 
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/2018-05-20%2021-14-55%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
 <br />
 
-3.右鍵>follow>tcpstream
+3.右鍵>Follow>TCP Stream
 
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(183).png)
 
 <br />
+
+4.
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(185).png)
 
 ===========================================================
 
