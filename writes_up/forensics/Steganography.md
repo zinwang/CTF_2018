@@ -12,7 +12,7 @@ STEG-20<br /><br />
 
 <br />
 
-2.檔案>選項>顯示
+2.檔案>選項>顯示<br />
 3.勾選隱藏文字
 
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(182).png)
