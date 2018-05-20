@@ -47,8 +47,17 @@ PicoCTF_2017: Special Agent User<br /><br />
 Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
 
 
+===========================================================
+hitcon-2017:Data & Mining<br /><br />
+-----------------------------------------------------------
 
+```
+strings traffic-1b2b39e2c2231e6b98c77700da047b78.pcapng |grep hitcon
+```
 
+```
+{"method":"login","params":{"login":"45duiDz79Y2AtSZH2pw9uV8YXmvtAT8tVNAYrfKTUnYiQZT5BMdRrGD4hbipmZ5DoaQXLak9ENEwYNC7kVk3ivDyMHyZCVV","pass":"hitcon{BTC_is_so_expensive_$$$$$$$}","agent":"xmr-stak-cpu/1.3.0-1.5.0"},"id":1}
+```
 
 
 
