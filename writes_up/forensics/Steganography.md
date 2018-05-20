@@ -9,7 +9,7 @@ sCTF 2016 Q1 : banana-boy-20<br /><br />
 
 
 
-solution 1: binwalk&&dd
+Solution 1:binwalk&&dd<br />
 <br />
 binwalk分析檔案
 ```
@@ -50,7 +50,7 @@ result:<br />
 
 
 <br />
-solution 2: foremost快速又方便
+Solution 2: foremost快速又方便
 
 `
 foremost carter.jpg
@@ -211,7 +211,7 @@ xxd ezmonay.jpg |head -5
 
 ![](https://github.com/zinwang/ctf/blob/master/writes_up/forensics/pics/ezmonay.jpg)
 
-got the flag!
+
 
 
 
@@ -223,7 +223,9 @@ got the flag!
 
 steg_3:Embedded secret<br /><br />
 -----------------------------------------------------
-
+和sCTF 2016 Q1 : banana-boy-20一樣
+<br />
+Solution 1:binwalk&&dd<br />
 ```
 binwalk PurpleThing.png 
 ```
@@ -240,6 +242,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 1809691       0x1B9D1B        StuffIt Deluxe Segment (data): f
 ```
 
+dd將藏在裏頭的jpeg提出來<br />
 ```
 dd if=PurpleThing.png of=new.jpg skip=765455 bs=1
 ```
@@ -248,7 +251,12 @@ dd if=PurpleThing.png of=new.jpg skip=765455 bs=1
 
 
 
+<br />
+Solution 2: foremost
 
+`
+foremost carter.jpg
+`
 
 
 
