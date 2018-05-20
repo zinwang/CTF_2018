@@ -62,6 +62,8 @@ unzip flag.zip
 
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/2018-05-20%2021-25-37%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
+<br />
+得到flag!!!
 <
 
 ===========================================================
