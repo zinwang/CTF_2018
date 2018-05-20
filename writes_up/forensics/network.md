@@ -26,7 +26,19 @@ strings networkingOK.pcap
 
 Internetwache-CTF-2016:Network Forensic<br /><br />
 -----------------------------------------------------------
+1.用wireshark 打開
+2.尋找http
+發現東西了!
 
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/2018-05-20%2021-14-55%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
+
+<br />
+
+3.右鍵>follow>tcpstream
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/forensics/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(183).png)
+
+<br />
 
 ===========================================================
 
@@ -41,7 +53,7 @@ strings no-big-deal.pcap
 Q1RGe2JldHRlcmZzLnRoYW4ueW91cnN9
 ```
 用base64試試
-flag就出了!
+flag就出來了!
 CTF{betterfs.than.yours}
 <br />
 
@@ -56,6 +68,7 @@ Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36
 
 <br />
 ===========================================================
+
 hitcon-2017:Data & Mining<br /><br />
 -----------------------------------------------------------
 
