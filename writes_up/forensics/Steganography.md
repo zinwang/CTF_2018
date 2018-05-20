@@ -283,7 +283,7 @@ dd if=PurpleThing.png of=new.jpg skip=765455 bs=1
 Solution 2: foremost
 
 `
-foremost carter.jpg
+foremost PurpleThing.png
 `
 
 
