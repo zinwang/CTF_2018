@@ -171,6 +171,7 @@ Preferences>Advanced>Network>Settings
 
 <br />
 6.修改user變成admin
+<br />
 
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-00-59%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
@@ -181,7 +182,7 @@ Preferences>Advanced>Network>Settings
 
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-01-28%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
-
+<br /><br />
 
 
 
