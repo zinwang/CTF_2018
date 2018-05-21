@@ -151,7 +151,17 @@ Preferences>Advanced>Network>Settings
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2020-58-57%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
 <br />
-4.Burp Suite
+
+4.開啟Intercept
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(189).png)
+
+
+<br />
+
+
+
+5.Burp Suite
 <br />
 在POST發現東西了!
 <br />
@@ -160,7 +170,16 @@ Preferences>Advanced>Network>Settings
 ![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(186).png)
 
 <br />
-5.修改
+6.修改user變成admin
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-00-59%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-01-17%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
+
+<br />
+7.flag!
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-01-28%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
 
 
