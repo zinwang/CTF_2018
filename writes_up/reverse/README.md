@@ -81,6 +81,7 @@ java Authenticator
 ```
 <br />
 需要密碼
+
 ```
 root@kalib:~/Download# java Authenticator 
 Enter password:
@@ -90,11 +91,14 @@ Enter password:
 
 <br />
 jad 反編譯Authenticator.class
+
 ```
 jad Authenticator.class
 cat Authenticator.jad
 ```
+
 <br />
+
 ```
 // Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
 // Jad home page: http://www.geocities.com/kpdus/jad.html
