@@ -38,6 +38,7 @@ string_a="}FTC NOCTIH ot emocleW{noctih"
 print(''.join(reversed(string_a)))
 ```
 <br />
+
 C++:
 ```
 #include <iostream>
@@ -57,8 +58,6 @@ int main(){
         return 0;
 
 }
-
-
 
 ```
 
