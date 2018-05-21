@@ -1,6 +1,6 @@
 <br />
 
-# CTF:Web
+# CTF:Web101
 
 <br /><br />
 
@@ -99,16 +99,22 @@ BreakALLCTF{7QtKB2N5TlqAAEzCrzNO}<br />
 web-3:Curl-1<br /><br />
 --------------------------------------------
 
+在GO按鈕的地方按右鍵>Copy Link Location
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(188).png)
+
+<br />
+
 ```
 curl http://120.114.62.89:2014/index.php
 ```
 
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-16-17%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
 
 
 
-
-
+<br />
 
 
 
