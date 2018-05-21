@@ -75,12 +75,12 @@ unzip tmpBPWe7T.zip
 java Authenticator
 
 ```
-
+執行看看
 ```
 java Authenticator
 ```
-
-
+<br />
+需要密碼
 ```
 root@kalib:~/Download# java Authenticator 
 Enter password:
@@ -88,13 +88,13 @@ Enter password:
 ```
 
 
-
-
+<br />
+jad 反編譯Authenticator.class
 ```
 jad Authenticator.class
 cat Authenticator.jad
 ```
-
+<br />
 ```
 // Decompiled by Jad v1.5.8e. Copyright 2001 Pavel Kouznetsov.
 // Jad home page: http://www.geocities.com/kpdus/jad.html
@@ -137,7 +137,8 @@ class Authenticator
 
 ```
 
-
+<br />
+所以密碼就是ThisIsth3mag1calString4458
 
 ```
 root@kalib:~/Download# java Authenticator 
