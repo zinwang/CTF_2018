@@ -76,6 +76,10 @@ java Authenticator
 
 ```
 
+```
+java Authenticator
+```
+
 
 ```
 root@kalib:~/Download# java Authenticator 
@@ -89,7 +93,6 @@ Enter password:
 ```
 jad Authenticator.class
 cat Authenticator.jad
-
 ```
 
 ```
@@ -134,17 +137,13 @@ class Authenticator
 
 ```
 
-```
-java Authenticator
 
-```
 
 ```
 root@kalib:~/Download# java Authenticator 
 Enter password:ThisIsth3mag1calString4458
 AoJkVhLwUR
-
 ```
 
-
+<br />
 
