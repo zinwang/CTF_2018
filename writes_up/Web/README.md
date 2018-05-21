@@ -67,11 +67,13 @@ web-2:Robots.txt<br /><br />
 
 <br />
 result:
+
 ```
 User-agent: *
 Disallow: /images
 Disallow: /secret
 ```
+
 所以就是120.114.62.89:2001/secret啦!<br />
 找到flag.txt!<br />
 是一串16進位<br />
