@@ -143,6 +143,7 @@ class Authenticator
 
 <br />
 所以密碼就是ThisIsth3mag1calString4458
+<br />
 
 ```
 root@kalib:~/Download# java Authenticator 
