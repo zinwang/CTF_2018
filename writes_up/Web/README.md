@@ -134,10 +134,10 @@ curl http://120.114.62.89:2014/index.php
 Web-6:Burp Suite<br /><br />
 --------------------------------------------
 
+1.首先設定瀏覽器proxy<br />
+Preferences>Advanced>Network>Settings
 
-
-
-
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2020-56-14%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
 
 
