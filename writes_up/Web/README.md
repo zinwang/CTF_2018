@@ -76,6 +76,15 @@ Disallow: /secret
 
 所以就是120.114.62.89:2001/secret啦!<br />
 找到flag.txt!<br />
+
+![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-16-17%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
+
+<br />
+
+
+
+
+
 是一串16進位<br />
 
 ```
@@ -105,11 +114,12 @@ web-3:Curl-1<br /><br />
 
 <br />
 
+使用curl
+
 ```
 curl http://120.114.62.89:2014/index.php
 ```
 
-![](https://github.com/zinwang/CTF_write_ups/blob/master/writes_up/Web/pics/2018-05-21%2021-16-17%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png)
 
 
 
