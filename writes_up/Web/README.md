@@ -10,6 +10,7 @@
 Web-1:source code<br /><br />
 --------------------------------------------
 
+右鍵>檢查原始碼或者F12
 ```
 
 <!DOCTYPE html>
@@ -53,28 +54,33 @@ Web-1:source code<br /><br />
 </html>
 ```
 
-
+<br />
 
 ============================================
 
 web-2:Robots.txt<br /><br />
 --------------------------------------------
-
+網址後面加/robots.txt
 ```
 120.114.62.89:2001/robots.txt
 ```
 
+<br />
+result:
 ```
 User-agent: *
 Disallow: /images
 Disallow: /secret
 ```
-
-516e4a6c595774425445784456455a374e31463053304979546a5655624846425155563651334a36546b3939
-
-QnJlYWtBTExDVEZ7N1F0S0IyTjVUbHFBQUV6Q3J6Tk99
-
-BreakALLCTF{7QtKB2N5TlqAAEzCrzNO}
+所以就是120.114.62.89:2001/secret啦!<br />
+找到flag.txt!<br />
+是一串16進位<br />
+516e4a6c595774425445784456455a374e31463053304979546a5655624846425155563651334a36546b3939<br />
+轉成字串後是一串base64<br />
+QnJlYWtBTExDVEZ7N1F0S0IyTjVUbHFBQUV6Q3J6Tk99<br />
+base64解碼<br />
+BreakALLCTF{7QtKB2N5TlqAAEzCrzNO}<br />
+答案出來了!<br />
 
 
 
