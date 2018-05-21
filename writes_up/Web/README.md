@@ -83,6 +83,9 @@ BreakALLCTF{7QtKB2N5TlqAAEzCrzNO}
 web-3:Curl-1<br /><br />
 --------------------------------------------
 
+```
+curl http://120.114.62.89:2014/index.php
+```
 
 
 
