@@ -79,7 +79,8 @@ int main()
 angstromCTF 2016 : artifact-20<br />
 Pico CTF 2014 : Substitution<br /><br />
 ---------------------------------------------------
-超快線上解!
+超快線上解!<br />
+
 [https://quipqiup.com](https://quipqiup.com)
 
 <br />
@@ -111,7 +112,8 @@ int main()
 ```
 
 <br />
-或者線上解!
+或者線上解!<br />
+
 [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
 
 
