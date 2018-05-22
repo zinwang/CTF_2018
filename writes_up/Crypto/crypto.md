@@ -17,7 +17,7 @@ C++:
 #include <cstring>
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
 		char a[1000];
 		cin.getline(a,sizeof(a));
@@ -51,7 +51,7 @@ C++:
 #include <cstring>
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
 		char a[1000];
 		cin.getline(a,sizeof(a));
@@ -96,7 +96,7 @@ C++:
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
 	char cipher[200];
 	cin>>cipher;
