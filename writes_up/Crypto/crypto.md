@@ -147,14 +147,48 @@ for x in range(62):
 ```
 
 
-
-
-
-
 <br />
 
 
 
+
+===================================================
+
+AlexCTF2017: Fore1-Hit_the_core<br /><br />
+---------------------------------------------------
+
+strings 先看看
+
+```
+strings fore1.core
+```
+<br />
+結果發現了這串，但不是答案
+
+```
+cvqAeqacLtqazEigwiXobxrCrtuiTzahfFreqc{bnjrKwgk83kgd43j85ePgb_e_rwqr7fvbmHjklo3tews_hmkogooyf0vbnk0ii87Drfgh_n kiwutfb0ghk9ro987k5tfb_hjiouo087ptfcv}
+```
+
+隱約可發現前面的ALEXCTF，而且間格都是5<br />
+所以拿掉前三個字母，並且每間格5個字母打印出來
+
+
+C++:
+```
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+
+int main(int argc, char const *argv[])
+{
+	char a[]="AeqacLtqazEigwiXobxrCrtuiTzahfFreqc{bnjrKwgk83kgd43j85ePgb_e_rwqr7fvbmHjklo3tews_hmkogooyf0vbnk0ii87Drfgh_n kiwutfb0ghk9ro987k5tfb_hjiouo087ptfcv}";
+	for(int i=0;i<int(strlen(a));i+=5){
+		cout<<a[i];
+	}
+	return 0;
+}
+```
 
 
 
