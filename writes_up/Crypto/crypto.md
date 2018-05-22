@@ -79,7 +79,7 @@ int main()
 angstromCTF 2016 : artifact-20<br />
 Pico CTF 2014 : Substitution<br /><br />
 ---------------------------------------------------
-
+超快線上解!
 [https://quipqiup.com](https://quipqiup.com)
 
 <br />
