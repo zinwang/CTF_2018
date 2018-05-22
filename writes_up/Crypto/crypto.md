@@ -116,20 +116,41 @@ int main()
 
 [https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
 
+<br />
+
+
+===================================================
+
+RC3 CTF 2016 : salad-100<br /><br />
+---------------------------------------------------
+
+Python3:
+```
+#!/usr/bin/python3
+
+import string
+
+a=string.ascii_lowercase+string.ascii_uppercase+string.digits
+
+c="7sj-ighm-742q3w4t"
+
+for x in range(62):
+    b=''
+    for ch in c:
+        if ch in a:
+            b+=a[(a.index(ch)+x)%62]
+        else:
+            b+=ch
+    print (b)
+
+```
 
 
 
 
 
 
-
-
-
-
-
-
-
-
+<br />
 
 
 
