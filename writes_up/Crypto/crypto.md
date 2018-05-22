@@ -110,7 +110,9 @@ int main()
 }
 ```
 
-
+<br />
+或者線上解!
+[https://www.guballa.de/vigenere-solver](https://www.guballa.de/vigenere-solver)
 
 
 
