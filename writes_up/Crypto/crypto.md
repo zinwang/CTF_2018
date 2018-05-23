@@ -91,6 +91,9 @@ Pico CTF 2014 : Substitution<br /><br />
 Vigenère cipher<br /><br />
 ---------------------------------------------------
 
+因為題目提示"caesar is everything. But he took it to the next level."<br />
+所以猜想KEY是caesar
+
 C++:
 ```
 #include <iostream>
@@ -100,10 +103,8 @@ using namespace std;
 
 int main()
 {
-	char cipher[200];
-	cin>>cipher;
-	char key[30];
-	cin>>key;
+	char cipher[]="vhixoieemksktorywzvhxzijqni";
+	char key[]="caesar";
 	for(int i=0;i<int(strlen(cipher));i++){
 		cipher[i]=char(122-(122-int(cipher[i])+int(key[i%strlen(key)])-97)%26);
 		cout<<cipher[i];
