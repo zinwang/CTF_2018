@@ -174,7 +174,7 @@ cvqAeqacLtqazEigwiXobxrCrtuiTzahfFreqc{bnjrKwgk83kgd43j85ePgb_e_rwqr7fvbmHjklo3t
 所以拿掉前三個字母，並且每間格5個字母打印出來
 
 
-Python:
+Python3:
 
 ```
 #!/usr/bin/python3
