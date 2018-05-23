@@ -214,12 +214,35 @@ int main()
 }
 ```
 
+<br />
+
+===================================================
+
+School CTF 2015: affine-cipher-100<br /><br />
+---------------------------------------------------
+
+Python3:
+```
+#!/usr/bin/python3
+
+import string
+
+a=string.ascii_lowercase+'_'
+
+c="ifpmluglesecdlqp_rclfrseljpkq"
 
 
+b={}
+for x in range(len(a)):
+        b[a[(x*4+15)%27]]=a[x]
+d=''
+for ch in c:
+    d+=b[ch]
+print (d)
 
+```
 
-
-
+<br />
 
 
 
