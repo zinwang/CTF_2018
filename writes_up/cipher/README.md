@@ -8,8 +8,7 @@ Base64<br /><br />
 -------------------------------------------------
 
 ```
-echo "QnJlYWtBTExDVEZ7NTN1c1pRM2hXVzI1ZGNoWjdkWGV9" > b64.txt
-base64 -d b64.txt
+echo "QnJlYWtBTExDVEZ7NTN1c1pRM2hXVzI1ZGNoWjdkWGV9" |base64 -d
 ```
 
 
@@ -30,8 +29,7 @@ Base32<br /><br />
 
 
 ```
-echo "IJZGKYLLIFGEYQ2UIZ5TS6BUHA2VMUZXO5UWS5CCLJMFKVLIJVSX2===" > b32.txt
-base32 -d b32.txt
+echo "IJZGKYLLIFGEYQ2UIZ5TS6BUHA2VMUZXO5UWS5CCLJMFKVLIJVSX2===" | base32 -d
 ```
 
 <br />
@@ -52,8 +50,7 @@ angstromCTF 2016 : what-the-hex<br /><br />
 -------------------------------------------------
 
 ```
-echo "6236343a20615735305a584a755a58526659323975646d567963326c76626c3930623239736331397962324e72" > hex.txt
-xxd -r -p hex.txt
+echo "6236343a20615735305a584a755a58526659323975646d567963326c76626c3930623239736331397962324e72" | xxd -r -p
 ```
 
 `
@@ -61,8 +58,7 @@ b64: aW50ZXJuZXRfY29udmVyc2lvbl90b29sc19yb2Nr
 `
 
 ```
-echo "aW50ZXJuZXRfY29udmVyc2lvbl90b29sc19yb2Nr" > b64.txt
-base64 -d b64.txt
+echo "aW50ZXJuZXRfY29udmVyc2lvbl90b29sc19yb2Nr" | base64 -d
 ```
 
 <br />
