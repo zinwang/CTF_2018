@@ -132,8 +132,9 @@ curl http://120.114.62.89:2014/index.php
 
 web-4:HTTP method<br /><br />
 --------------------------------------------
+[https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE#%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95](https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE#%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95)
 
-
+利用curl:
 ```
 curl -X GETFLAG -v http://120.114.62.89:3001/index.php
 ```
