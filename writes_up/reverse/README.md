@@ -152,6 +152,10 @@ Enter password:ThisIsth3mag1calString4458
 AoJkVhLwUR
 ```
 
+flag:
+```
+AoJkVhLwUR
+```
 <br /><br />
 
 
