@@ -33,7 +33,7 @@ Breaking the PassWORd<br/><br/>
 
 <br />
 
-python建表,要考慮大小寫和數字
+python建表,要考慮大小寫和數字<br />
 一開始沒考慮到數字，花了一點時間
 
 Python3:
