@@ -129,7 +129,7 @@ echo 'Li0gLi0uLiAuIC0uLi0gLS4tLiAtIC4uLS4gLSAuLi4uIC4tLS0tIC4uLi4uIC0tLSAuLS0tLS
 
 <br />
 
-線上工具解出來，可是不是
+線上工具解出來，可是不是flag
 ```
 ALEXCTFTH15O1SO5UP3RO5ECR3TOTXT
 ```
