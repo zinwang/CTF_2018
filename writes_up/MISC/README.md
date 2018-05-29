@@ -13,6 +13,7 @@ Secret@Scratch<br/><br/>
 [Dialga1234 - Johnny Boy](https://scratch.mit.edu/projects/108998724/#editor)
 
 觀看改編樹>觀看程式頁面
+仔細找找答案就出來了!
 
 <br />
 
@@ -26,6 +27,14 @@ Secret@Scratch<br/><br/>
 
 Breaking the PassWORd<br/><br/>
 --------------------------------------------
+分析一下
+
+[bitwise.py](http://120.114.62.89/files/90ee4d3a57d1c15f79e4efa0f2d88f67/bitwise.py)
+
+<br />
+
+python建表,要考慮大小寫和數字
+一開始沒考慮到數字，花了一點時間
 
 Python3:
 ```
