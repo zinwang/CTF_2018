@@ -127,6 +127,28 @@ echo 'Li0gLi0uLiAuIC0uLi0gLS4tLiAtIC4uLS4gLSAuLi4uIC4tLS0tIC4uLi4uIC0tLSAuLS0tLS
 
 [摩斯密碼線上轉換器](https://morsecode.scphillips.com/translator.html?utm_source=hootsuite)
 
+<br />
+
+結果出現了這個
+```
+ALEXCTFTH15O1SO5UP3RO5ECR3TOTXT
+```
+
+但題目說
+```
+Hint: Fady's encoding doens't handly any special character
+```
+
+所以自己補上大括號並且推測O是底線
+
+```
+ALEXCTF{TH15_1S_5UP3R_5ECR3T_TXT}
+```
+
+答案就出來啦!
+
+<br /><br />
+
 
 
 
