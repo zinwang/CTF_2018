@@ -288,15 +288,21 @@ foremost PurpleThing.png
 
 
 
-<br /><br />
+<br />
 
 
 
 
+=====================================================
 
+Steg_Secret@PDF<br /><br />
+-----------------------------------------------------
 
+使用pdfcrack工具:[https://github.com/shreepads/pdfcrack-mp](https://github.com/shreepads/pdfcrack-mp)
 
-
+```
+pdfcrack -f mypassword.pdf -w 
+```
 
 
 
