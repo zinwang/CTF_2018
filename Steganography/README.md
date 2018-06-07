@@ -306,7 +306,7 @@ pdfcrack -f mypassword.pdf -w testpasswordslist_small.txt
 
 我使用pdfcrack本身的測試字典[https://github.com/zinwang/CTF_2018/blob/master/Steganography/testpasswordslist_small.txt](https://github.com/zinwang/CTF_2018/blob/master/Steganography/testpasswordslist_small.txt)
 
-結果很快就爆出來了，密碼是elepant
+結果很快就爆出來了，密碼是elephant
 
 
 ![](https://github.com/zinwang/CTF_2018/blob/master/writes_up/forensics/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(191).png)
