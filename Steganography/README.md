@@ -309,8 +309,19 @@ pdfcrack -f mypassword.pdf -w testpasswordslist_small.txt
 結果很快就爆出來了，密碼是elepant
 
 
+![](https://github.com/zinwang/CTF_2018/blob/master/writes_up/forensics/pics/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(191).png)
 
+結果沒有flag<br />
 
+後來發現要用pdftotext工具把它轉成txt
 
+```
+pdftotext  mypassword.pdf -upw elephant
+```
 
+-upw:密碼<br />
+最後產生一個mypassword.txt<br />
+cat它就得到flag了!!!
+
+<br /><br />
 
