@@ -185,7 +185,8 @@ GGTTCAATGGGCTTGTCAATGGTTCGCATATCCATGGGCACGGTTCGCGGCTCA
 
 <br />
 
-看了看DNA加密的規則，寫了個Python:
+看了看DNA加密的規則，寫了個Python:<br />
+空格也要考慮進去
 
 ```
 #!/usr/bin/python3
