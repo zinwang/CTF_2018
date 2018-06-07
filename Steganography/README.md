@@ -1,5 +1,5 @@
 
-# CTF:Forensics-Stego
+# CTF:Forensics-Stegano
 
 =====================================================
 
