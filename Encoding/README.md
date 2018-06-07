@@ -197,9 +197,21 @@ GC','ATG','AGT','AAG','TGC','TCC','TCT','GGA','GTG','AAC
 ','TCA','ACG','TTC','CTG','CCT','CCG','CTA','AAA','CTT',
 'ATA'])
 
+e=''
 
+for i in range(0,len(a),3):
+	d=''
+	d+=a[i:i+3]
+	for j in range(len(table)):
+		if(d==table[j]:
+			if(j==26):
+				e+=' '
+			else:
+				e+=chr(j+65)
+			break
+print(e)
 
-
+```
 
 
 
