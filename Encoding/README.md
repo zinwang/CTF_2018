@@ -192,26 +192,31 @@ GGTTCAATGGGCTTGTCAATGGTTCGCATATCCATGGGCACGGTTCGCGGCTCA
 
 a='GGTTCAATGGGCTTGTCAATGGTTCGCATATCCATGGGCACGGTTCGCGGCTCA'
 
-table=list(['CGA','CCA','GTT','TTG','GGC','GGT','TTT','C
-GC','ATG','AGT','AAG','TGC','TCC','TCT','GGA','GTG','AAC
-','TCA','ACG','TTC','CTG','CCT','CCG','CTA','AAA','CTT',
-'ATA'])
+table=list(['CGA','CCA','GTT','TTG','GGC','GGT','TTT','CGC','ATG','AGT','AAG','TGC','TCC','TCT','GGA','GTG','AAC','TCA','ACG','TTC','CTG','CCT','CCG','CTA','AAA','CTT','ATA'])
 
 e=''
 
 for i in range(0,len(a),3):
-	d=''
-	d+=a[i:i+3]
-	for j in range(len(table)):
-		if(d==table[j]:
-			if(j==26):
-				e+=' '
-			else:
-				e+=chr(j+65)
-			break
+        d=''
+        d+=a[i:i+3]
+        for j in range(len(table)):
+                if(d==table[j]):
+                        if(j==26):
+                                e+=' '
+                        else:
+                                e+=chr(j+65)
+                        break
 print(e)
 
+
 ```
+
+<br />
+
+後來發現線上工具弄不出來原來是因為空格的關係啊哈哈<br />
+
+然後照他的意思把空格換成底線，就是flag了!!!<br />
+
 
 
 
