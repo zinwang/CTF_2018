@@ -160,15 +160,46 @@ ALEXCTF{TH15_1S_5UP3R_5ECR3T_TXT}
 
 答案就出來啦!
 
-<br /><br />
+<br />
+
+
+
+
+=================================================
+
+qiwi_infosec_ctf_2016_crypto_100<br /><br />
+-------------------------------------------------
+
+題目是一串由AGCT組成的東西<br />
+```
+GGTTCAATGGGCTTGTCAATGGTTCGCATATCCATGGGCACGGTTCGCGGCTCA
+```
+
+有學過高中基礎生物都知道，這一定是DNA的四個含氮鹼基<br />
+
+上網查了一下，找到一些[線上工具](https://www.dcode.fr/codons-genetic-code)，可是都弄不出flag<br />
+
+於是查了一下
+
+![](https://camo.githubusercontent.com/0331f00c6a1e7e5e77843d4feab1268f7d1d9ecf/687474703a2f2f7777772e706f6c65737461726c74642e636f6d2f7474672f697373706565636865732f3035313430332f736c69646531342e6a7067)
+
+<br />
+
+看了看DNA加密，寫了個Python:
+
+```
+#!/usr/bin/python3
+
+a='GGTTCAATGGGCTTGTCAATGGTTCGCATATCCATGGGCACGGTTCGCGGCTCA'
+
+table=list([])
 
 
 
 
 
 
-
-
+```
 
 
 
