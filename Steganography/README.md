@@ -301,8 +301,12 @@ Steg_Secret@PDF<br /><br />
 使用pdfcrack工具:[https://github.com/shreepads/pdfcrack-mp](https://github.com/shreepads/pdfcrack-mp)
 
 ```
-pdfcrack -f mypassword.pdf -w 
+pdfcrack -f mypassword.pdf -w testpasswordslist_small.txt
 ```
+
+我使用pdfcrack本身的測試字典[https://github.com/zinwang/CTF_2018/blob/master/Steganography/testpasswordslist_small.txt](https://github.com/zinwang/CTF_2018/blob/master/Steganography/testpasswordslist_small.txt)
+
+結果很快就爆出來了，密碼是elepant
 
 
 
