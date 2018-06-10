@@ -48,11 +48,36 @@ Morse code<br /><br />
 Internetwache CTF 2016: The hidden message<br /><br />
 ----------------------------------------------------------
 
+解壓後有一個README.txt
+```
+0000000 126 062 126 163 142 103 102 153 142 062 065 154 111 121 157 113
+0000020 122 155 170 150 132 172 157 147 123 126 144 067 124 152 102 146
+0000040 115 107 065 154 130 062 116 150 142 154 071 172 144 104 102 167
+0000060 130 063 153 167 144 130 060 113 012
+0000071
+
+```
 
 
+看一下最大的數字是7，所以應該是8進位<br />
+把一每行開頭拿掉，8進位轉成字串<br />
 
+[https://www.browserling.com/tools/octal-to-text](https://www.browserling.com/tools/octal-to-text)
 
+```
+V2VsbCBkb25lIQoKRmxhZzogSVd7TjBfMG5lX2Nhbl9zdDBwX3kwdX0K
+```
 
+看了看直覺就是base64
+```
+Well done!
+
+Flag: IW{N0_0ne_can_st0p_y0u}
+```
+
+結束~
+
+<br />
 
 
 
