@@ -216,7 +216,7 @@ result:
 <br />
 
 
-[File Signature](https://en.wikipedia.org/wiki/List_of_file_signatures)
+[File Signature](https://en.wikipedia.org/wiki/List_of_file_signatures) <br />
 少了ff d8 ff<br />
 
 ```
