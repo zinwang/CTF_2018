@@ -217,6 +217,7 @@ result:
 
 
 [File Signature](https://en.wikipedia.org/wiki/List_of_file_signatures)
+少了ff d8 ff<br />
 
 ```
 printf '\xff\xd8\xff' | dd of=ezmonay.jpg seek=0 bs=1 conv=notrunc
