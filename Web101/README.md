@@ -98,7 +98,6 @@ QnJlYWtBTExDVEZ7N1F0S0IyTjVUbHFBQUV6Q3J6Tk99
 ```
 
 base64解碼<br />
-BreakALLCTF{7QtKB2N5TlqAAEzCrzNO}<br />
 答案出來了!<br />
 
 
